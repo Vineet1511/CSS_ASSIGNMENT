@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F6F6;
+    padding-bottom: 3rem;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.navbar img{
+    height: 50px;
+    object-fit: cover;
+    margin-left: -55px;
+}
+
+
+.nav-items a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+    margin-right: 2.8rem;
+    font-size: 16.5px;
+    cursor: pointer;
+}
+
+.hero-section{
+    height: 260px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    background-color: #111C3D;
+    text-align: center;
+    border-radius: 12px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.hero-items{
+    line-height: 2;
+}
+
+.hero-items button{
+    padding: 8px 28px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #2096F3;
+    color: #ffffff;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.company-main-div{
+    height: 220px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.company-main-div h3{
+    font-size: 23px;
+}
+
+.company-inner-divs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 10px 12px;
+}
+
+.company-sub-inner-div{
+    height: 170px;
+    width: 20%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.company-sub-inner-div img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-top: 10%;
+}
+
+.company-sub-inner-div p, span{
+    font-weight: 700;
+}
+
+.charges-main-div{
+    height: 80vh;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.us-stocks-div{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.us-stocks-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+
+.us-stocks-inner .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    text-align: center;
+    height: 42vh;
+    width: 32.5%;
+    background-color: #ffffff;
+    gap: 15px;
+}
+
+.us-stocks-inner .card img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.us-stocks-inner .card img+p{
+    font-weight: 700;
+}
+
+.card>p+p{
+    line-height: 1.1;
+}
+
+.mutual-fund{
+    padding-bottom: 3rem;
+}

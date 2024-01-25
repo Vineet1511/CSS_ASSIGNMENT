@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.heading{
+    margin-left: -35rem;
+}
+
+.heading>h1{
+    margin-top: 6.5%;
+    font-size: 2.2rem;
+    margin-bottom: 2.2rem;
+}
+
+.main-container .container-1{
+    background-color: #01B9F2;
+    color: #ffffff;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.recharge-bill-options{
+    width: 70%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.rech-bill{
+    height: 170px;
+    width: 22%;
+    padding: 15px 0px 0px 15px;
+}
+
+.rech-bill img{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.method>p{
+    font-size: 16px;
+    line-height: 1.4rem;
+    font-weight: 700;
+}
+
+.rech-bill:hover{
+    background-color: #00AFE3;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-container .container-2{
+    background-color: #0F4A8A;
+    color: #ffffff;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container-2 h1{
+    margin-left: -9rem;
+    margin-top: 2.3rem;
+}
